@@ -7,7 +7,9 @@ public class ConstructorDemo {
     }
 //
     ConstructorDemo(int num1){
+        System.out.println(num1);
         System.out.println("Constructor with 1 par executed");
+
     }
     ConstructorDemo(int num1, int num2){
         System.out.println("Constructor with 2 par executed");
@@ -15,6 +17,6 @@ public class ConstructorDemo {
 
     public static void main(String[] args) {
         System.out.println("Main method executed");
-        ConstructorDemo cD = new ConstructorDemo(2,3);
+        ConstructorDemo cD = new ConstructorDemo(10,20);
     }
 }

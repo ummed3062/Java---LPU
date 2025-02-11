@@ -16,7 +16,12 @@ class Garage {
     // Method that accepts a Car object as a parameter
     public void parkCar(Car car) {
         System.out.println("Parking car...");
+
+
         car.displayInfo();
+    }
+    public void checkSpeed(int speed){
+        System.out.println("Speed: "+ speed);
     }
 }
 
@@ -24,11 +29,12 @@ public class ObjAsParameters {
     public static void main(String[] args) {
         Car myCar = new Car("Toyota", 2022);
 
+        myCar.displayInfo();
         Garage myGarage = new Garage();
 // Passing an object as a parameter to the method
         myGarage.parkCar(myCar); // Output: Parking car... Model: Toyota, Year: 2022
 
-
+myGarage.checkSpeed(12);
 
 
 
