@@ -1,6 +1,10 @@
 package com.lpu.unit2;
 
 public class InitializerBlocks {
+
+    static {
+        System.out.println("Static block executed - Main Class ");
+    }
     public static void main(String[] args) {
         System.out.println("Main method Executed");
         InitializerStudent iS = new InitializerStudent("Ummed", 24);
@@ -20,7 +24,7 @@ class InitializerStudent{
     InitializerStudent(String name, int age) {
         this.name = name;
         this.age = age;
-        System.out.println("Constructor block executed");
+        System.out.println("Constructor block executed " + name);
     }
 
     static {
