@@ -2,7 +2,19 @@ package com.lpu.unit2;
 
 public class StringBuilderMethodsExample {
     public static void main(String[] args) {
+
+//        String str = new String("Hello");
+//        str.concat(" world");
+//        System.out.println(str);
+
         StringBuilder sb = new StringBuilder("Hello");
+        sb.append(" World");
+        System.out.println(sb);
+
+        StringBuffer sf = new StringBuffer("Hello");
+        sf.append(", java");
+        System.out.println(sf);
+
 
         // 1. append()
         sb.append(", Java!");

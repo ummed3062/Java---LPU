@@ -7,8 +7,14 @@ public enum Day {
 
 class WeekDays{
 
-    String day1 = "Monday";
+    public static final String DAY1 = "Monday";
     String day2 = "Tuesday";
+}
+
+class MainEnum{
+
+    WeekDays obj1 = new WeekDays();
+    WeekDays obj2 = new WeekDays();
 }
 
 

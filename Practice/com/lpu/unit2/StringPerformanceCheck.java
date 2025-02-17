@@ -10,6 +10,7 @@ public class StringPerformanceCheck {
         String str = "";
 
         startTime = System.currentTimeMillis();
+
         for (int i = 0;i<100000; i++){
             str += i; // str = 0 -> 01 -> 012 -> 0123
         }
