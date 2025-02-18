@@ -3,7 +3,6 @@ package com.lpu.unit3;
 class BankAccount {
     String accountHolder;
     double balance;
-
     BankAccount(String accountHolder, double balance) {
         this.accountHolder = accountHolder;
         this.balance = balance;
@@ -21,6 +20,7 @@ class SavingsAccount extends BankAccount {
         super(accountHolder, balance);
     }
 
+
     void withdraw(double amount) {
         if (balance >= amount) {
             balance -= amount;
@@ -30,6 +30,8 @@ class SavingsAccount extends BankAccount {
         }
     }
 }
+
+
 
 // Main class to test the implementation
 public class BankingSystem {

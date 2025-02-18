@@ -3,14 +3,11 @@ package com.lpu.unit3;
 // Parent class
 abstract class Payment {
     double amount;
-
     Payment(double amount) {
         this.amount = amount;
     }
-
     abstract void processPayment();
 }
-
 // Child class for Credit Card Payment
 class CreditCardPayment extends Payment {
     String cardNumber;
@@ -19,13 +16,11 @@ class CreditCardPayment extends Payment {
         super(amount);
         this.cardNumber = cardNumber;
     }
-
     @Override
     void processPayment() {
         System.out.println("Processing Credit Card Payment of $" + amount + " using card " + cardNumber);
     }
 }
-
 // Child class for UPI Payment
 class UPIPayment extends Payment {
     String upiId;

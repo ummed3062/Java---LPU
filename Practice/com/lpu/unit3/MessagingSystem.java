@@ -8,6 +8,7 @@ interface Sendable {
 // Interface for receiving messages
 interface Receivable {
     void receive();
+
 }
 
 // Class implementing both interfaces

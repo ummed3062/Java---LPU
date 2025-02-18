@@ -5,6 +5,7 @@ interface A {
     default void show() {
         System.out.println("A's show method");
     }
+
 }
 
 // Interface 2

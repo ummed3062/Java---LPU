@@ -1,6 +1,6 @@
 package com.lpu.unit3;
 
-// Parent class: BankAccount
+// Parent class: BankAccountSuper
 class BankAccountSuper {
     String accountHolder;  // Parent class variable
     double balance;
@@ -18,7 +18,7 @@ class BankAccountSuper {
     }
 }
 
-// Child class: SavingsAccount
+// Child class: SavingsAccountSuper
 class SavingsAccountSuper extends BankAccountSuper {
     double balance;  // Child class variable (hides parent class variable)
     double interestRate;

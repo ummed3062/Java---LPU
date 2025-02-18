@@ -1,5 +1,5 @@
-package com.lpu.unit3;
-
+//package com.lpu.unit3;
+//
 //// Parent Class 1
 //class A {
 //    void show() {
@@ -16,9 +16,12 @@ package com.lpu.unit3;
 //
 //// Child Class trying to inherit both A and B (Not Allowed in Java)
 //class C extends A, B { // ❌ ERROR: Java does not support multiple class inheritance
+//
+//
+//
 //    public static void main(String[] args) {
 //        C obj = new C();
 //        obj.show(); // ❓ Ambiguity: Which show() method to call? A's or B's?
 //    }
 //}
-
+//
