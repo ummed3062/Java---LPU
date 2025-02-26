@@ -6,16 +6,11 @@ import java.util.List;
 // Parent class: Payment
 abstract class PaymentPoly {
     double amount;
-
     PaymentPoly(double amount) {
         this.amount = amount;
     }
-
     abstract void processPayment(); // Abstract method to be implemented by subclasses
 
-    void showAmount() {
-        System.out.println("Payment Amount: $" + amount);
-    }
 }
 
 // Child class: CreditCardPayment
@@ -51,10 +46,12 @@ class UPIPaymentPoly extends PaymentPoly {
 
 
 // Main class to test the implementation
-public class ECommercePaymentSystemPoly {
+public class ECommercePaymentSystemPoly extends Object {
     public static void main(String[] args) {
         // Using a list of Payment objects instead of separate object creation
         List<PaymentPoly> payments = new ArrayList<>();
+
+
         payments.add(new CreditCardPaymentPoly(100.0, "1234-5678-9876-5432"));
         payments.add(new UPIPaymentPoly(50.0, "ummed@upi"));
 

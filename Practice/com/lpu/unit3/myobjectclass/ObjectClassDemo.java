@@ -16,7 +16,16 @@ class ByteXL extends Lpu{
 public class ObjectClassDemo {
     public static void main(String[] args) {
 
-        Object lpu = new Lpu();
+        Lpu lpu = new Lpu();
+
+        Object byteXl = new ByteXL();
+
+
+
+
+
+
+
 
 
 

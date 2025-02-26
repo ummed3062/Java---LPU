@@ -16,8 +16,13 @@
 //
 //// Child Class trying to inherit both A and B (Not Allowed in Java)
 //class C extends A, B { // ❌ ERROR: Java does not support multiple class inheritance
+////    void show() {
+////        System.out.println("B's show method");
+////    }
 //
+//}
 //
+//class MyMain{
 //
 //    public static void main(String[] args) {
 //        C obj = new C();

@@ -1,9 +1,9 @@
 package com.lpu.unit3.myobjectclass;
 
-class Car3 {
+class Audi {
     String model;
 
-    Car3(String model) {
+    Audi(String model) {
         this.model = model;
     }
 
@@ -15,11 +15,11 @@ class Car3 {
 
 public class ObjectHashCodeExample1 {
     public static void main(String[] args) {
-        Car3 car1 = new Car3("BMW");
-        Car3 car2 = new Car3("BMW");
+        Audi audi1 = new Audi("BMW");
+        Audi audi2 = new Audi("BMW");
 
-        System.out.println(car1.hashCode()); // Same hash code
-        System.out.println(car2.hashCode()); // Same hash code
+        System.out.println(audi1.hashCode()); // Same hash code
+        System.out.println(audi2.hashCode()); // Same hash code
 
 
 

@@ -22,6 +22,8 @@ public class SingleInheritanceExample {
         Car myCar = new Car();
         myCar.display();
         myCar.honk();
+
+        Vehicle myVehicle  = new Vehicle();
     }
 }
 

@@ -1,9 +1,9 @@
 package com.lpu.unit3.myobjectclass;
 
-class Car6 {
+class Mahindra {
     String model;
 
-    Car6(String model) {
+    Mahindra(String model) {
         this.model = model;
     }
 
@@ -15,8 +15,8 @@ class Car6 {
 
 public class ObjectToStringExample1 {
     public static void main(String[] args) {
-        Car6 car = new Car6("Audi");
-        System.out.println(car.toString()); // Output: Car Model: Audi
+        Mahindra mahindra = new Mahindra("Mahindra");
+        System.out.println(mahindra.toString()); // Output: Car Model: Mahindra
     }
 }
 

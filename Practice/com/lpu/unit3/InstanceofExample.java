@@ -1,6 +1,8 @@
 package com.lpu.unit3;
 
 class Animal1 {}
+
+class Animal2{}
 class Dog extends Animal1 {}
 
 public class InstanceofExample {

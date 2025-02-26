@@ -2,9 +2,16 @@ package com.lpu.unit3;
 
 class Parent{
     String surname = "Singh";
+
+    void display(){
+        System.out.println("Executed the Parent class method");
+    }
 }
+
 class child extends Parent{
     String name = "Ummed ";
+
+    @Override
     public void display(){
         System.out.println(name + surname);
     }

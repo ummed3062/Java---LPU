@@ -6,6 +6,9 @@ interface A {
         System.out.println("A's show method");
     }
 
+    
+
+
 }
 
 // Interface 2
@@ -24,6 +27,7 @@ class C implements A, B {
         A.super.show(); // Explicitly calling A's show()
         B.super.show(); // Explicitly calling B's show()
     }
+
 
     public static void main(String[] args) {
         C obj = new C();

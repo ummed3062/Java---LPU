@@ -2,7 +2,6 @@ package com.lpu.unit3;
 
 class ParentSuper {
     String name = "Parent";
-
     ParentSuper(){
         System.out.println("Executed the ParentClass constructor");
     }
@@ -10,17 +9,19 @@ class ParentSuper {
         System.out.println("This is the parent class.");
     }
 }
+
 class ChildSuper extends ParentSuper {
     String name = "Child";
 
     ChildSuper(){
-        super();
+        super(); // must be the first statement in the subclass constructor
+        System.out.println("jhdfnh");
+
 
     }
 
+    @Override
     void display() {
-
-
         System.out.println("This is the child class.");
     }
     void show() {
