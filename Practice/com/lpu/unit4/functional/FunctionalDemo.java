@@ -4,7 +4,6 @@ package com.lpu.unit4.functional;
 interface MyFunctionalInterface {
     void myMethod(); // Single Abstract Method (SAM)
 
-
     // Default method (Optional)
     default void defaultMethod() {
         System.out.println("Default method in Functional Interface");
@@ -16,8 +15,14 @@ interface MyFunctionalInterface {
     }
 }
 
+
+
 public class FunctionalDemo {
     public static void main(String[] args) {
+
+
+
+        
         // Using Lambda Expression to implement Functional Interface
         MyFunctionalInterface obj = () -> System.out.println("Implementation using Lambda!");
         obj.myMethod();

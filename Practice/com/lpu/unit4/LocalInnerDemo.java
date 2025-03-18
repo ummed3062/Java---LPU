@@ -4,12 +4,13 @@ package com.lpu.unit4;
 class OuterDemo {
     void display() {
         final String localMessage = "Inside Local Inner Class";
-
         String msg = "Hello LPU!";
         // Local Inner Class
         class LocalInner {
             void show() {
                 System.out.println(localMessage);
+                String str = localMessage;
+                String s = msg;
             }
         }
         // Creating instance of LocalInner inside method

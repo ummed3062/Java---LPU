@@ -5,6 +5,7 @@ public class EncapsulationDemo {
     public static void main(String[] args) {
         EncapsulationEntity obj = new EncapsulationEntity();
 
+        System.out.println();
         System.out.println(obj.clg);
         System.out.println(obj.getId());
 
@@ -17,9 +18,9 @@ class EncapsulationEntity{
     private String name = "Ummed Singh";
     String clg = "LPU";
 
-    public int getId(){
-        return this.id;
-    }
+   public int getId(){
+       return this.id;
+   }
     void setId(int id){
         this.id = id;
     }

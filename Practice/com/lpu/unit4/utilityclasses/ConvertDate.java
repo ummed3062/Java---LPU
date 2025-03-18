@@ -8,6 +8,8 @@ import java.util.Date;
 public class ConvertDate {
     public static void main(String[] args) {
         Date date = new Date();
+
+        System.out.println(date);
         Instant instant = date.toInstant();
         LocalDateTime localDateTime = instant.atZone(ZoneId.systemDefault()).toLocalDateTime();
 

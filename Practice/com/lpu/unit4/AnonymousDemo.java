@@ -4,6 +4,14 @@ interface Greeting {
     void sayHello();
 }
 
+//class Child implements Greeting{
+//
+//    @Override
+//    public void sayHello() {
+//
+//    }
+//}
+
 
 public class AnonymousDemo {
     public static void main(String[] args) {
