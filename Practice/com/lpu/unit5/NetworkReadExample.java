@@ -5,7 +5,7 @@ import java.net.*;
 public class NetworkReadExample {
     public static void main(String[] args) {
         try {
-            URL url = new URL("https://www.example.com");
+            URL url = new URL("https://ums.lpu.in/lpuums/LoginNew.aspx");
             BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
 
             String line;

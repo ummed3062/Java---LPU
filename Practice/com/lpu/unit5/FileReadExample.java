@@ -3,7 +3,11 @@ package com.lpu.unit5;
 import java.io.*;
 public class FileReadExample {
     public static void main(String[] args) {
-        try (BufferedReader reader = new BufferedReader(new FileReader("example.txt"))) {
+        try  {
+
+            FileReader file = new FileReader("F:\\ByteXL\\Java LPU\\Practice\\com\\lpu\\unit5\\demo.txt");
+            BufferedReader reader = new BufferedReader(file);
+
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);

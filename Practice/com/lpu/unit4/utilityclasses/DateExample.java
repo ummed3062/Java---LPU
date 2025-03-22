@@ -7,7 +7,7 @@ public class DateExample {
         LocalDate today = LocalDate.now(); // Gets the current date
         System.out.println("Today's Date: " + today);
 
-        LocalDate specificDate = LocalDate.of(2025, 13, 25); // Creates a specific date
+        LocalDate specificDate = LocalDate.of(2025, 12, 25); // Creates a specific date
         System.out.println("Specific Date: " + specificDate);
     }
 }

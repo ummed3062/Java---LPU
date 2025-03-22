@@ -12,8 +12,8 @@ public class DatabaseReadExample {
 
             while (rs.next()) {
                 System.out.println(rs.getString("name"));
-            }
 
+            }
             con.close();
         } catch (Exception e) {
             e.printStackTrace();

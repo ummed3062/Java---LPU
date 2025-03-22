@@ -20,7 +20,7 @@ class Person implements Serializable {
 
 public class SerializationExample {
     public static void main(String[] args) {
-        Person p1 = new Person("Alice", 30);
+        Person p1 = new Person("Singh", 25);
 
         // Serialize Object
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("person.dat"))) {
@@ -38,10 +38,6 @@ public class SerializationExample {
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-        String name = "Ummed";
-        int age = 24;
-
-        System.out.printf("Name: %s, Age: %d", name, age);
     }
 }
 

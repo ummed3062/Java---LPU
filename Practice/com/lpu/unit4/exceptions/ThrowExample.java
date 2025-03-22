@@ -7,11 +7,11 @@ public class ThrowExample {
         }
     }
     public static void main(String[] args){
-        try {
+//        try {
             validate(16); // Throws IllegalArgumentException
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-        }
+//        }catch (Exception e){
+//            System.out.println(e.getMessage());
+//        }
 //        anotherValidate(0);
     }
 }

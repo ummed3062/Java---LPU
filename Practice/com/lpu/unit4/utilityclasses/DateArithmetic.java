@@ -6,6 +6,12 @@ public class DateArithmetic {
     public static void main(String[] args) {
         LocalDate today = LocalDate.now();
 
+
+        String currentDate = "12-02-2025";
+
+
+
+
         LocalDate nextWeek = today.plusDays(7);
         System.out.println("Date After 7 Days: " + nextWeek);
 
