@@ -5,7 +5,7 @@ public class BufferedFileReadExample {
     public static void main(String[] args) {
         try (BufferedReader reader = new BufferedReader(new FileReader("F:\\ByteXL\\Java LPU\\Practice\\com\\lpu\\unit5\\demo.txt"))) {
 
-            System.out.println("file data: "+ reader.read());
+            System.out.println("file data: "+ reader.readLine());
 
             String line;
             while ((line = reader.readLine()) != null) {

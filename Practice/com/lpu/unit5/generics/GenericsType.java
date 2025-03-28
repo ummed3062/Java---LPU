@@ -1,5 +1,6 @@
 package com.lpu.unit5.generics;
 
+
 public class GenericsType<T> {
     private T t;
     public T get(){

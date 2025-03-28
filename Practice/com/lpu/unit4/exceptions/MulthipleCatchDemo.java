@@ -6,14 +6,16 @@ public class MulthipleCatchDemo {
         try {
             System.out.println(arr[1]); // ArrayIndexOutOfBoundsException
             int num = 10 / 0; // ArithmeticException
-        } catch (IllegalArgumentException e) {
+        }
+        catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("2nd catch block");
             System.out.println(e.getMessage());
-        }
-        catch (Exception e) {
+        }catch (Exception e) {
             System.out.println("Exception.....");
         }
+
     }
 }
 

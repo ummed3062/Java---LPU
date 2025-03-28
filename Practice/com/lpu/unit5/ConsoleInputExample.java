@@ -6,9 +6,14 @@ import java.util.Scanner;
 public class ConsoleInputExample {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
-        System.out.println("Hello, " + name + "!");
+        int contact = scanner.nextInt();
+        System.out.printf("Hello, %s, Contact: %d", contact, name);
+//        System.out.println(name1);
+
 
 
         BufferedReader buffReader = new BufferedReader(new InputStreamReader(System.in));

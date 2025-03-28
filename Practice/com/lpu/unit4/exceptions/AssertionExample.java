@@ -5,14 +5,18 @@ public class AssertionExample {
         int age = 15;
 
 //      1.
-        if(age < 18){
-            System.out.println("Age must be at least 18");
-        }
+//        if(age < 18){
+//            System.out.println("Age must be at least 18");
+//        }
 
 //       2. Exception
 //        if (age < 18){
 //            throw new CustomException("Age must be at least 18");
 //        }
+
+age = 20;
+
+//        3. Assertions
         assert age >= 18 : "Age must be at least 18";
         System.out.println("Age is " + age);
 

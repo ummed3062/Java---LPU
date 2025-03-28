@@ -12,5 +12,8 @@ public class GenericsTypeOld {
         GenericsTypeOld type = new GenericsTypeOld();
         type.set("Ummed");
         String str = (String) type.get(); //type casting, error prone and can cause ClassCastException
+
+        type.set(1);
+        String str1 = (String) type.get();
     }
 }

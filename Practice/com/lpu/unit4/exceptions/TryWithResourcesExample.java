@@ -6,8 +6,8 @@ import java.io.IOException;
 
 public class TryWithResourcesExample {
     public static void main(String[] args) {
-        try (BufferedReader br = new BufferedReader(new FileReader("test.txt"))) {
-            System.out.println(br.readLine()); // Read and print first line
+        try (FileReader file = new FileReader("F:\\ByteXL\\Java LPU\\Practice\\com\\lpu\\unit4\\exceptions\\demo.txt")) {
+            System.out.println(file.read()); // Read and print first line
         } catch (IOException e) {
             System.out.println("Exception handled: " + e);
         }

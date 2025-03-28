@@ -9,6 +9,9 @@ public class FileReadExample {
             BufferedReader reader = new BufferedReader(file);
 
             String line;
+
+            String str;
+            System.out.println(file);
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
             }

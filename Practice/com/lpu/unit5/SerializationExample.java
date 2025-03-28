@@ -3,7 +3,7 @@ package com.lpu.unit5;
 import java.io.*;
 
 // Define a Serializable Class
-class Person implements Serializable {
+class Person {
     private static final long serialVersionUID = 1L;
     String name;
     int age;

@@ -4,7 +4,6 @@ package com.lpu.unit4.exceptions;
 class CustomException extends Exception {
     public CustomException(String message) {
         super(message); // Pass message to Exception class
-
     }
 }
 
