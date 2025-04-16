@@ -1,15 +1,10 @@
 package com.lpu.unit3.abstraction;
 
 abstract class Vehicle {
-
-
     Vehicle(){
-
     }
-
     int a = 10;
     abstract void start(); // Abstract method (no implementation)
-
     void stop() { // Concrete method (with implementation)
         System.out.println("Vehicle is stopping.");
     }
@@ -33,9 +28,6 @@ class Bike extends Vehicle {
 
 public class AbstractionExample {
     public static void main(String[] args) {
-
-
-
 
         Vehicle myCar = new Car();
         myCar.start(); // Outputs: Car is starting with a key.

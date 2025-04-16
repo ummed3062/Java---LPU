@@ -2,7 +2,6 @@ package com.lpu.unit3.myobjectclass;
 
 class Bike {
     String model;
-
     Bike(String model) {
         this.model = model;
     }

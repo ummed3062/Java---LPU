@@ -11,6 +11,8 @@ public class InstanceofExample {
         System.out.println(dog instanceof Dog);    // true
         System.out.println(dog instanceof Animal1); // true
         System.out.println(dog instanceof Object); // true
+
+
     }
 }
 

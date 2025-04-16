@@ -1,5 +1,8 @@
 package com.lpu.unit3.abstraction;
 
+import java.util.ArrayList;
+import java.util.List;
+
 interface Payment {
     int a = 10;
     void makePayment(); // Abstract method
@@ -37,6 +40,14 @@ public class InterfaceExample {
 
         Payment payment2 = new PayPalPayment();
         payment2.makePayment(); // Outputs: Payment made using PayPal.
+
+
+        List<Integer> list = new ArrayList<>();
+
+
+
+
+        list.add(10);
     }
 }
 

@@ -27,7 +27,6 @@ public class GameProgressSerializationDemo {
     public static void saveProgress(Player player){
 
         try(ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(GAME_PROGRESS_FILE))) {
-
             oos.writeObject(player);
             System.out.println("Game progress saved successfully");
 

@@ -10,7 +10,6 @@ class Parent{
 
 class child extends Parent{
     String name = "Ummed ";
-
     @Override
     public void display(){
         System.out.println(name + surname);

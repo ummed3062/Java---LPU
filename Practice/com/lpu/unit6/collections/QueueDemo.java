@@ -10,11 +10,18 @@ public class QueueDemo {
 
         Queue<Integer> arr = new ArrayDeque<>();
         Queue<Integer> queue = new LinkedList<>();
-Queue<Integer> list = new PriorityQueue<>();
+        Queue<Integer> list = new PriorityQueue<>();
+
         arr.add(10);
         arr.add(20);
         arr.add(20);
+        System.out.println(arr);
+
         System.out.println(arr.poll());
+
+        System.out.println(arr);
         System.out.println(arr.peek());
+
+        System.out.println(arr);
     }
 }

@@ -12,14 +12,10 @@ class ParentSuper {
 
 class ChildSuper extends ParentSuper {
     String name = "Child";
-
     ChildSuper(){
         super(); // must be the first statement in the subclass constructor
         System.out.println("jhdfnh");
-
-
     }
-
     @Override
     void display() {
         System.out.println("This is the child class.");
